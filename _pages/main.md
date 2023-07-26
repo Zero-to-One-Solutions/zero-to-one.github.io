@@ -1,66 +1,17 @@
 ---
+# title: "About Us"
 title: "Innovation Meets Scalability"
-layout: splash
-permalink: /splash-page/
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  actions:
-    - label: "Learn More"
-      url: "/terms/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
-intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
-feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+layout: single
+permalink: /
+author_profile: true
 ---
 
-{% include feature_row id="intro" type="center" %}
+At Scaled Evolution, we are trailblazers in the realm of software development and consultancy, empowering businesses to thrive in the digital era. Our mission is to help companies build cutting-edge, scalable, and enterprise-grade applications that elevate their performance and drive success.
 
-{% include feature_row %}
+With a team of brilliant minds and tech-savvy experts, we embark on a journey of innovation and evolution, guiding businesses through the ever-changing landscape of technology. Our tailored solutions are designed to unlock your organization's full potential, harnessing the power of technology to streamline operations, enhance customer experiences, and gain a competitive edge in the market.
 
-{% include feature_row id="feature_row2" type="left" %}
+As software development pioneers, we embrace the philosophy of continuous improvement, staying at the forefront of emerging technologies to bring the latest advancements to your doorstep. Whether you need a custom-built software solution, a scalable mobile application, or expert consultancy to optimize your IT infrastructure, Scaled Evolution is your trusted partner.
 
-{% include feature_row id="feature_row3" type="right" %}
+Our commitment to excellence extends beyond the completion of projects; we pride ourselves on building long-lasting partnerships with our clients. With a deep understanding of your unique business needs, we collaborate closely, ensuring our solutions align perfectly with your goals and aspirations.
 
-{% include feature_row id="feature_row4" type="center" %}
+Step into the future with Scaled Evolution - where innovation meets scalability, and your business reaches new heights in the digital landscape. Let us pave the way for your technological success, one step at a time.

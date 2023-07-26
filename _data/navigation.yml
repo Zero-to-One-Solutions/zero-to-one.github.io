@@ -1,1 +1,7 @@
 main:
+  - title: "About Us"
+    url: /
+#  - title: "Posts"
+#    url: /posts/
+  - title: "Contact Us"
+    url: mailto:contact@scaledevolution.com

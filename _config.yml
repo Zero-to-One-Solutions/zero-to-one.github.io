@@ -1,18 +1,4 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Scaled Evolution
 subtitle: "Where Innovation Meets Scalability!"
 locale: "en-US"
@@ -44,6 +30,7 @@ atom_feed:
 
 include:
   - _pages
+  - _posts
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -70,10 +57,10 @@ author:
   name   : "Aykut Aras"
   avatar : "https://www.gravatar.com/avatar/7c2e00952d91de9e038cefd2d68c88db?s=200"
   bio    : >-
-    Founder at Scaled Evolution /
-    AWS Certified DevOps Engineer /
+    Lead Software Engineer /
+    Senior DevOps Engineer /
     Serverless Advocate
-  location: "Amsterdam, The Netherlands"
+  location: "Eindhoven, The Netherlands"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -94,6 +81,11 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ScaledEvolution"
 
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -103,6 +95,6 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
-      comments: true
+      comments: false
       share: true
-      related: true
+      related: false
