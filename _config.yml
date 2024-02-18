@@ -4,20 +4,17 @@ subtitle: "Creating Tomorrow, Today"
 locale: "en-US"
 logo: "/assets/images/logo.png"
 name: "Scaled Evolution"
-email: contact@scaledevolution.com
+email: contact@zerotoone.solutions
 description: >- # this means to ignore newlines until "baseurl:"
-  At Scaled Evolution, we are trailblazers in the realm of software development and consultancy,
-  empowering businesses to thrive in the digital era. Our mission is to help companies build cutting-edge,
-  scalable, and enterprise-grade applications that elevate their performance and drive success.
-# twitter_username: ScaledEvolution
-github_username: ScaledEvolution
+  As a parent company, we serve as an idea incubator and design lab, fostering creativity and innovation across various industries. While we have diverse interests, our focus remains on sports and the advancement of sporting equipment.
+github_username: romdj
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: air
-repository: ScaledEvolution/scaledevolution.github.io
-url: "https://scaledevolution.com"
+repository: Zero-to-One-Solutions.github.io
+url: "https://zerotoone.solutions"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -57,29 +54,23 @@ author:
   name   : "Aykut Aras"
   avatar : "https://www.gravatar.com/avatar/7c2e00952d91de9e038cefd2d68c88db?s=200"
   bio    : >-
-    Lead Software Engineer /
-    Senior DevOps Engineer /
-    Serverless Advocate
-  location: "Eindhoven, The Netherlands"
+    Solution Architect /
+    Innovation Factory
+    
+  location: "Brussels, Belgium"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://aykutaras.net"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/aykutaras"
+      url: "https://zerotoone.solutions"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/aykutaras"
+      url: "https://github.com/Zero-to-One-Solutions"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ScaledEvolution"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ScaledEvolution"
+      url: "https://github.com/Zero-to-One-Solutions"
 
 collections:
   posts:
