@@ -1,9 +1,9 @@
 ---
-title: Innovation Meets Scalability
+title: Creating Tomorrow, Today
 layout: collection
 permalink: /posts/
 collection: posts
 # entries_layout: grid
 # classes: wide
-author_profile: true
+author_profile: false
 ---
